@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+.gradient-transition {
+    background: linear-gradient(to right, #8A2387, #E94057);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-position 0.5s ease;
+    background-size: 200% auto;
+    background-position: 100% 0;
+  }
+  
+  .gradient-transition:hover {
+    background-position: 0 0;
+  }
+  
